@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiCode, DiZend } from 'react-icons/di';
+import { DiCode, DiNodejsSmall, DiLinux } from 'react-icons/di';
 // import{FaCode} from 'react-icons/fa'
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
@@ -43,7 +43,7 @@ const Technologies = () => (
 
       <ListItem>
         <picture>
-          <DiCode size="3rem" />
+          <DiNodejsSmall size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>FrameWorks & Libraries</ListTitle>
@@ -68,27 +68,26 @@ const Technologies = () => (
 
       <ListItem>
         <picture>
-          <DiCode size="3rem" />
+          <DiLinux size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>FrameWorks & Libraries</ListTitle>
+          <ListTitle>Other Tools & Platforms</ListTitle>
           <ListParagraph>
-            <div style={{ display: 'flex' }}> <span style={{ width: "60%" }}>Next.js</span>
+            <div style={{ display: 'flex' }}> <span style={{ width: "60%" }}>Git</span>
               <Progress percent={90} strokeColor={{ '0%': '#108ee9', '100%': '#87d068' }} trailColor={"grey"} />
             </div><br />
-            <div style={{ display: 'flex' }}> <span style={{ width: '60%' }}>NodeJS</span>
+            <div style={{ display: 'flex' }}> <span style={{ width: '60%' }}>Terminal</span>
               <Progress percent={90} strokeColor={{ '0%': '#108ee9', '100%': '#87d068' }} trailColor={"grey"} />
             </div><br />
-            <div style={{ display: 'flex' }}> <span style={{ width: '60%' }}>ExpressJs</span>
+            <div style={{ display: 'flex' }}> <span style={{ width: '60%' }}>Linux</span>
               <Progress percent={90} strokeColor={{ '0%': '#108ee9', '100%': '#87d068' }} trailColor={"grey"} />
             </div><br />
-            <div style={{ display: 'flex' }}> <span style={{ width: '60%' }}>BootStrap</span>
+            <div style={{ display: 'flex' }}> <span style={{ width: '60%' }}>Windows</span>
               <Progress percent={90} strokeColor={{ '0%': '#108ee9', '100%': '#87d068' }} trailColor={"grey"} />
             </div><br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
-
 
     </List>
     <SectionDivider colorAlt />
